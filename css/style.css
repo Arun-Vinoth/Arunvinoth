@@ -1,0 +1,103 @@
+body{
+	margin: 0px;
+}
+.main{
+	height: 700px;
+	background-image: url("../images/solo.jpg");
+	background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (min-width: 1000px){
+#container {
+	height: 700px;
+	width: 1000px;
+	margin: 0 auto;
+}
+}
+
+.header {
+	margin-top: 0px;
+	width: 100%
+}
+.logo {
+	float: left;
+	margin: 23px;
+}
+nav ul li {
+	display: inline-block;
+	float: right;
+}
+.navbar {
+	font-size: 20px;
+	margin-left: 25px;
+	text-decoration: none;
+}
+
+.navbar:hover {
+	text-decoration: underline;
+}
+.center-h1 {
+	 position: absolute;
+     left: 50%;
+     top: 50%;
+     transform: translate(-50%,-50%);
+     color: white;
+}
+.center-h1 h3{
+	margin-left: 15px;
+}
+.unorder ul li{
+color: black;
+}
+/*HEADER SECTION*/
+#head {
+	width: 100%;
+	height: 350px;
+	background-image: url("../images/solo.jpg");
+	background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.port{
+	position: absolute;
+    top: 26%;
+    left: 44%;
+    color: white;
+ }
+ .portfolio
+ {
+ 	width: 100%;
+ }
+ .one-top{
+ 	margin-top: 30px;
+ }
+/*TESTIMONIAL SECTION*/
+.name{
+	color: #cccccc;
+	font-size: 20px;
+	margin-top: 0;
+}
+.one-top{
+    margin-top: 30px;
+}
+.port{
+	color: white;
+}
+
+ /*FOOTER SECTION*/
+ #foot{
+ 	width: 100%;
+ 	background-color: rgb(0,101,142);
+ 	display: inline-block;
+ 	padding: 25px 20px 10px 40px;
+ }
+ .social{
+ 	width: 50%;
+ 	float: left;
+ }
+ .contact{
+ 	width: 50%;
+ 	float: left;
+ }
